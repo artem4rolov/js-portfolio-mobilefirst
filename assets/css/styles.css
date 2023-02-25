@@ -1,5 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&display=swap");
 /*==================== VARIABLES CSS ====================*/
 :root {
   --header-height: 3rem;
@@ -23,7 +23,7 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /*========== Font and typography ==========*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Golos Text", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
@@ -503,35 +503,44 @@ img {
   background-color: var(--first-color);
 }
 
+/* frontend skils */
 .skills__html {
-  width: 90%;
+  width: 89%;
 }
 .skills__css {
-  width: 80%;
+  width: 82%;
 }
 .skills__js {
-  width: 70%;
+  width: 83%;
+}
+.skills__typescript {
+  width: 38%;
 }
 .skills__react {
-  width: 70%;
+  width: 68%;
 }
-.skills__php {
-  width: 90%;
+.skills__tailwind {
+  width: 42%;
 }
+.skills__scss-sass {
+  width: 68%;
+}
+/* backend skils */
 .skills__nodejs {
-  width: 90%;
+  width: 43%;
+}
+.skills__mongodb {
+  width: 33%;
 }
 .skills__firebase {
-  width: 90%;
+  width: 31%;
 }
-.skills__python {
-  width: 90%;
-}
+/* designer skils */
 .skills__photoshop {
-  width: 90%;
+  width: 86%;
 }
 .skills__figma {
-  width: 80%;
+  width: 81%;
 }
 
 .skills__close .skills__list {

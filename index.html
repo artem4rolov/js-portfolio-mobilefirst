@@ -16,43 +16,43 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="./assets/css/styles.css" />
 
-    <title>Responsive Portfolio Website</title>
+    <title>Portfolio</title>
   </head>
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="" class="nav__logo">Alexa</a>
+        <a href="" class="nav__logo">Артем Фролов</a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
               <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i> Home
+                <i class="uil uil-estate nav__icon"></i> Домой
               </a>
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> About
+                <i class="uil uil-user nav__icon"></i> Обо мне
               </a>
             </li>
             <li class="nav__item">
               <a href="#skills" class="nav__link">
-                <i class="uil uil-file-download-alt nav__icon"></i> Skills
+                <i class="uil uil-file-download-alt nav__icon"></i> Навыки
               </a>
             </li>
             <li class="nav__item">
               <a href="#qualification" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i> Qualification
+                <i class="uil uil-briefcase-alt nav__icon"></i> Мой путь
               </a>
             </li>
             <li class="nav__item">
               <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                <i class="uil uil-scenery nav__icon"></i> Портфолио
               </a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i> Contact me
+                <i class="uil uil-message nav__icon"></i> Контакты
               </a>
             </li>
           </ul>
@@ -84,7 +84,10 @@
               <a href="#" class="home__social-icon" target="_blank"
                 ><i class="uil uil-dribbble"></i
               ></a>
-              <a href="#" class="home__social-icon" target="_blank"
+              <a
+                href="https://github.com/artem4rolov"
+                class="home__social-icon"
+                target="_blank"
                 ><i class="uil uil-github"></i
               ></a>
             </div>
@@ -113,21 +116,26 @@
                   />
                   <image
                     class="home__blob-img"
-                    slink:href="assets/img/perfil.png"
+                    x="0"
+                    y="0"
+                    href="assets/img/logo.jpg"
                   />
                 </g>
               </svg>
             </div>
 
             <div class="home__data">
-              <h1 class="home__title">Hi, I'am Alexa</h1>
-              <h3 class="home__subtitle">Frontend developer</h3>
+              <h1 class="home__title">
+                Hello world!, <br />
+                я Артем
+              </h1>
+              <h3 class="home__subtitle">Frontend разработчик</h3>
               <p class="home__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ducimus odit perspiciatis similique qui totam, vero deleniti!
+                Я в своем познании фронтенда настолько...⁠⁠
               </p>
               <a href="#contact" class="button button--flex">
-                Contact Me <i class="uil uil-message button__icon"></i>
+                Преисполниться со мной
+                <i class="uil uil-message button__icon"></i>
               </a>
             </div>
           </div>
@@ -135,7 +143,7 @@
           <div class="home__scroll">
             <a href="#about" class="home__scroll-button button--flex">
               <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
+              <span class="home__scroll-name">Далее</span>
               <i class="uil uil-arrow-down home__scroll-arrow"></i>
             </a>
           </div>
@@ -145,7 +153,7 @@
       <!--==================== ABOUT ====================-->
       <section class="about section" id="about">
         <h2 class="section__title">About me</h2>
-        <span class="section__subtitle">My introduction</span>
+        <span class="section__subtitle">Немного обо мне</span>
 
         <div class="about__container container grid">
           <img src="assets/img/about.jpg" alt="" class="about__img" />
@@ -157,18 +165,20 @@
             </p>
             <div class="about__info">
               <div>
-                <span class="about__info-title">08+</span>
-                <span class="about__info-name">Years <br />experince</span>
+                <span class="about__info-title">1</span>
+                <span class="about__info-name"
+                  >Год опыта <br />в разработке</span
+                >
               </div>
 
               <div>
-                <span class="about__info-title">20+</span>
-                <span class="about__info-name">Completed <br />projects</span>
+                <span class="about__info-title">6</span>
+                <span class="about__info-name">Завершенных <br />проектов</span>
               </div>
 
               <div>
-                <span class="about__info-title">05+</span>
-                <span class="about__info-name">Companies <br />worked</span>
+                <span class="about__info-title">0</span>
+                <span class="about__info-name">Попыток<br />уронить прод</span>
               </div>
             </div>
             <div class="about__buttons">
@@ -186,8 +196,8 @@
 
       <!--==================== SKILLS ====================-->
       <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">My technical level</span>
+        <h2 class="section__title">Hard skills</h2>
+        <span class="section__subtitle">Мои технические навыки</span>
 
         <div class="skills__container container grid">
           <div>
@@ -197,7 +207,7 @@
                 <i class="uil uil-brackets-curly skills__icon"></i>
                 <div>
                   <h1 class="skills__title">Frontend developer</h1>
-                  <span class="skills__subtitle">More than 4 years</span>
+                  <span class="skills__subtitle">Полтора года практики</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -208,7 +218,7 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">HTML</h3>
-                    <span class="skills__number">90%</span>
+                    <span class="skills__number">89%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__html"></span>
@@ -219,7 +229,7 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">CSS</h3>
-                    <span class="skills__number">80%</span>
+                    <span class="skills__number">82%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__css"></span>
@@ -230,10 +240,21 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">JS</h3>
-                    <span class="skills__number">60%</span>
+                    <span class="skills__number">83%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+
+                <!-- Type Script -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Type Script</h3>
+                    <span class="skills__number">38%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__typescript"></span>
                   </div>
                 </div>
 
@@ -241,10 +262,31 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">React</h3>
-                    <span class="skills__number">60%</span>
+                    <span class="skills__number">68%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+
+                <!-- Tailwind -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Tailwind</h3>
+                    <span class="skills__number">42%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__tailwind"></span>
+                  </div>
+                </div>
+                <!-- SASS -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SCSS, SASS</h3>
+                    <span class="skills__number">68%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__scss-sass"></span>
                   </div>
                 </div>
               </div>
@@ -258,7 +300,7 @@
                 <i class="uil uil-server-connection skills__icon"></i>
                 <div>
                   <h1 class="skills__title">Backend developer</h1>
-                  <span class="skills__subtitle">More than 2 years</span>
+                  <span class="skills__subtitle">Полгода практики</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -267,41 +309,31 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">PHP</h3>
-                    <span class="skills__number">80%</span>
+                    <h3 class="skills__name">Node JS</h3>
+                    <span class="skills__number">43%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__php"></span>
+                    <span class="skills__percentage skills__nodejs"></span>
                   </div>
                 </div>
                 <!-- NodeJS -->
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">NodeJS</h3>
-                    <span class="skills__number">70%</span>
+                    <h3 class="skills__name">MongoDB</h3>
+                    <span class="skills__number">33%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__nodejs"></span>
+                    <span class="skills__percentage skills__mongodb"></span>
                   </div>
                 </div>
                 <!-- Firebase -->
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Firebase</h3>
-                    <span class="skills__number">40%</span>
+                    <span class="skills__number">31%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__firebase"></span>
-                  </div>
-                </div>
-                <!-- Python -->
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Python</h3>
-                    <span class="skills__number">30%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__python"></span>
                   </div>
                 </div>
               </div>
@@ -315,7 +347,7 @@
                 <i class="uil uil-swatchbook skills__icon"></i>
                 <div>
                   <h1 class="skills__title">Designer</h1>
-                  <span class="skills__subtitle">More than 5 years</span>
+                  <span class="skills__subtitle">Более года практики</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -326,7 +358,7 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Adobe Photoshop</h3>
-                    <span class="skills__number">90%</span>
+                    <span class="skills__number">86%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__photoshop"></span>
@@ -337,7 +369,7 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Figma</h3>
-                    <span class="skills__number">80%</span>
+                    <span class="skills__number">81%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__figma"></span>
@@ -351,8 +383,8 @@
 
       <!--==================== QUALIFICATION ====================-->
       <section class="qualification section" id="qualification">
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">My personal journey</span>
+        <h2 class="section__title">Road</h2>
+        <span class="section__subtitle">Мой путь</span>
 
         <div class="qualification__container container">
           <div class="qualification__tabs">
@@ -361,12 +393,12 @@
               data-target="#education"
             >
               <i class="uil uil-graduation-cap qualification__icon"></i>
-              Education
+              Образование
             </div>
 
             <div class="qualification__button button--flex" data-target="#work">
               <i class="uil uil-briefcase-alt qualification__icon"></i>
-              Work
+              Работа
             </div>
           </div>
 
@@ -380,11 +412,13 @@
               <!--==================== QUALIFICATION 1 ====================-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Computer Engineer</h3>
-                  <span class="qualification__subtitle">Peru - University</span>
+                  <h3 class="qualification__title">
+                    Информационные системы и технологии
+                  </h3>
+                  <span class="qualification__subtitle">АГПС МЧС России</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2009 - 2014
+                    20014 - 2018, Москва
                   </div>
                 </div>
 
