@@ -176,21 +176,24 @@
 
           <div class="about__data">
             <p class="about__description">
-              Frontend разработчик с 1.5+ годами коммерческого опыта. До IT
-              работал в МЧС, опыт в прошлой сфере помогает в критической
-              ситуации сохранять концентрацию и фокус на задаче. Разрабатываю
-              приложения на React, следуя методологиям DRY, SOLID, KISS.
+              Frontend разработчик с 1.5+ годами коммерческого опыта.
               <br />
+              <br />
+              До IT работал в МЧС. Опыт в прошлой сфере помогает в критической и
+              стрессовой ситуации сохранять концентрацию и фокус на задаче.
+              <br />
+              <br />
+              Разрабатываю приложения на React, следуя принципам DRY, SOLID,
+              KISS.
+              <br />Использую в работе TypeScript для типизации и минимизации
+              ошибок в коде, ReduxToolkit для создания единого хранилища данных.
               <br />
               Навык многозадачности и декомпозиции задач помогает находить
-              рациональные решения в разработке. Я постоянно ищу возможности для
-              саморазвития и роста. Хочу находиться в среде сильных
-              разработчиков, чтобы развиваться самому и приносить пользу
-              команде.
+              рациональные решения в разработке.
             </p>
             <div class="about__info">
               <div>
-                <span class="about__info-title">1.7</span>
+                <span class="about__info-title">1.5+</span>
                 <span class="about__info-name">Лет опыта <br />разработки</span>
               </div>
             </div>
@@ -569,14 +572,19 @@
                     <p>
                       Разработал интерфейс приложения интернет-магазина
                       (вкладки, таблицы с данными от API, модальные окна с
-                      помощью библиотеки Bootstrap)
+                      помощью библиотеки Bootstrap), что положительно повлияло
+                      на адаптивность приложения при изменении разрешения
+                      экрана.
                     </p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
                     <p>
                       Создал хранилище для данных от API (Redux toolkit) для
-                      отображения товаров по категориям в интернет-магазине
+                      отображения товаров по категориям в интернет-магазине,
+                      работал с API (CRUD - операции с данными), в результате
+                      приложение стало масштабируемым, логика работы с данными
+                      отделена от визуальной части приложения.
                     </p>
                   </li>
                   <li class="services__modal-service">
@@ -584,7 +592,9 @@
                     <p>
                       Создал страницу авторизации, которая обрабатывает ошибки
                       при авторизации и истечении сессии пользователя с помощью
-                      axios interceptor
+                      axios interceptor, в зависимости от кода ответа сервера -
+                      обновляется авторизация пользователя, или же требуется
+                      повторная авторизация.
                     </p>
                   </li>
                   <li class="services__modal-service">
@@ -592,15 +602,9 @@
                     <p>
                       Создал и кастомизировал диаграммы количества заказов,
                       оставшихся товаров на складе, работал с библиотекой
-                      chart.js
-                    </p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>
-                      Реализовал компонент календаря для личного кабинета
-                      пользователя в интернет-магазине на основе библиотеки
-                      React-Calendar
+                      chart.js. 5. Реализовал компонент календаря для личного
+                      кабинета пользователя в интернет-магазине на основе
+                      библиотеки React-Calendar.
                     </p>
                   </li>
                 </ul>
@@ -634,6 +638,40 @@
                 </p>
                 <p class="portfolio__description">
                   React, Redux, Material UI, NodeJS, MongoDB
+                </p>
+                <a
+                  href="https://github.com/artem4rolov/blog-myself-frontend"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Код<i class="uil uil-arrow button__icon"></i
+                ></a>
+                <a
+                  href="https://blog-myself-frontend.vercel.app/"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Демо<i class="uil uil-arrow-right button__icon"></i
+                ></a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Пиццерия</h3>
+                <p class="portfolio__description">
+                  Вывод товаров (Mock.api), добавление в корзину, выбор
+                  категории товаров, сортировка, фильтрация, поиск товаров
+                  (lodash)
+                </p>
+                <p class="portfolio__description">
+                  React, Redux-toolkit, TypeScript, Mock Api, Lodash
                 </p>
                 <a
                   href="https://github.com/artem4rolov/blog-myself-frontend"
@@ -831,37 +869,6 @@
                 ></a>
                 <a
                   href="https://modern-bank-landing-myself.vercel.app/"
-                  target="_blank"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Демо<i class="uil uil-arrow-right button__icon"></i
-                ></a>
-              </div>
-            </div>
-            <!--==================== PORTFOLIO 7 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio7.jpg"
-                alt=""
-                class="portfolio__img"
-              />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Канбан - доски</h3>
-                <p class="portfolio__description">
-                  Работа с массивами, вывод модальных окон, достижения для
-                  пользователя, добавление и удаление задач
-                </p>
-                <p class="portfolio__description">Vanilla JS</p>
-                <a
-                  href="https://github.com/artem4rolov/todo-List.github.io"
-                  target="_blank"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Код<i class="uil uil-arrow button__icon"></i
-                ></a>
-                <a
-                  href="https://artem4rolov.github.io/todo-List.github.io/"
                   target="_blank"
                   class="button button--flex button--small portfolio__button"
                 >
